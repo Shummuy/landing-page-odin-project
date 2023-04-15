@@ -1,0 +1,164 @@
+/* ================ root ================= */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    /* border: 1px solid green; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.margin {
+    padding: 100px;
+}
+
+/* =============== Header ============ */
+
+header,
+footer {
+    background: #1f2937;
+}
+
+.hero {
+    display: flex;
+}
+.hero img {
+    width: 800px;
+    background-color: lightslategray;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.menu .links {
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight:bold;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.font-pad {
+    font-size: 1    border-radius: 10px;px;
+    color: #e5e7eb
+}
+
+.button {
+    background: #3882f6;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* ==================== sections ================== */
+
+.info-section {
+    background: #F9FAF8;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    justify-content: center;
+    display: flex;
+}
+
+.section-info {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtext-info {
+    display: flex;
+    flex-direction: column;
+    width: 105px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.info-section img {
+    border: 2px solid #3882f6;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+/* ============ quotes ================== */
+
+.quote-section {
+    background: #e5e7eb;
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-section span {
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+/* ================== call =================== */
+
+.sign {
+    background-color: #3882f6;
+    height: 120px;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    gap: 80px;
+}
+
+.sign-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign .button {
+    margin-top: 40px;
+    border: 1px solid white;
+}
+
+/* =============== footer =============== */
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
