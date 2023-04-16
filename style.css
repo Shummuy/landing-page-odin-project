@@ -1,8 +1,4 @@
 /* ================ root ================= */
-body {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 * {
     margin: 0px;
@@ -16,7 +12,7 @@ a {
 }
 
 .margin {
-    padding: 100px;
+    padding: 100px 300px;
 }
 
 /* =============== Header ============ */
@@ -26,18 +22,25 @@ footer {
     background: #1f2937;
 }
 
+
 .hero {
     display: flex;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
 }
 .hero img {
-    width: 800px;
+    max-width: 600px;
     background-color: lightslategray;
 }
 .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 10px 300px;
 }
 
 .menu .links {
@@ -88,7 +91,7 @@ h1 {
 
 .section-info {
     display: flex;
-    gap: 50px;
+    gap: 60px;
     justify-content: center;
     align-items: center;
 }
@@ -106,8 +109,8 @@ h1 {
 
 .info-section img {
     border: 2px solid #3882f6;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 130px;
     border-radius: 10%;
 }
 
@@ -122,12 +125,16 @@ h1 {
     font-style: italic;
     font-weight: 300;
     color: #1f2937;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .quote-section span {
     font-weight: bold;
     display: flex;
     justify-content: end;
+    width: 800px;
+    margin: 0 auto;
 }
 
 /* ================== call =================== */
@@ -135,11 +142,13 @@ h1 {
 .sign {
     background-color: #3882f6;
     height: 120px;
+    width: 700px;
     display: flex;
     border-radius: 10px;
     color: white;
     justify-content: center;
     gap: 80px;
+    margin: 0 auto;
 }
 
 .sign-items {
